@@ -1,0 +1,39 @@
+
+body{
+	border-top:  15px  solid  #ff00b0;
+	border-bottom:  15px  solid  #ff00b0;
+	background-color: pink;
+	margin: 0 auto;
+}
+
+h1{
+   font-family: "Dancing Script";
+   background-color: #ff8cdb;
+   color: white;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 10vw;
+}
+
+h2{
+	background-color: #f76acd;
+	color: white;
+	text-align: right;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 500px;
+	height: auto; 
+	width: 50%;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	transform: translate(-50%. -50%);
+	border-radius: 25px;
+}
+
+div{
+	position: relative;
+	height: 700px;
+}
