@@ -1,0 +1,40 @@
+h2{
+  text-align: center;
+  font-weight: bold;
+   background-color:#c4cdc1;
+  padding: 20px;
+  color: #2a484c;
+}
+
+h1{
+  Text-align:center;
+  background-color: #2e5a60;
+  padding: 20px;
+  color: white;
+}
+.carousel slide{
+     margin-left: 5%;
+  margin-right: 5%;
+}
+
+.numbered-list {
+  list-style-type: decimal;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+.bulleted-list {
+  list-style-type: disc;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer{
+  width: 100%;
+  height: 200px;
+  background-color:#c4cdc1;
+  clear: both;
+  color:#2a484c;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0 auto;
+}
