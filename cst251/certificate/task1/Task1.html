@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>    
+    <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2023 by anonymous (http://jsbin.com/cuvicefehi/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">    
+    <meta name="viewport" content="width=device-width">   
+<link rel="stylesheet" href="styles.css">
+<title>Task1</title> 
+
+<style id="jsbin-css">
+body {
+  color: violet;
+  background-image: url("data:image/jpeg;base64,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");
+  background-size: 600px;
+  background-repeat: no-repeat;
+}
+</style>
+</head> 
+<body> 
+  <h1 id="title"> Instagram Survey </h1>
+  <p id="description"> This survey lets us know who uses the app the most and how much.  
+  </p> 
+<form id="survey-form">
+  <label id="name-label"> Instagram Username:     <input type="text" id="name" required placeholder="example: sarsar1522">  
+  </label> 
+  <br> 
+  <label id="email-label"> Email Address:   <input type="email" id="email" required placeholder="johnny@appleseed.com"> 
+  </label> 
+  <br> 
+  <label id="number-label"> How many hours a day are you on Instagram?   <input type="number" id="number" min="0" max="10" placeholder="0"> 
+  </label> 
+  <br> 
+  How well do you like Instagram? 
+  <select id="dropdown" name="Like it?">        <option> Select One </option>    
+  <option> Love it! </option>    
+  <option> It's alright. </option>    
+  <option> Hate it! </option> 
+  </select> 
+  <br> 
+  What is your gender? <label> <input type="radio"  name="sex"  value="M"> Male 
+  </label> 
+  <label> <input type="radio"  name="sex"  value="F"> Female 
+  </label> 
+  <br>
+ What do you use Instagram for? 
+ <br> 
+ <input type="checkbox"  name="os"  value="Others"> Stalking People 
+ <input type="checkbox"  name="os"  value="Me"> Posting what I'm doing 
+ <br> 
+ <input type="checkbox"  name="os"  value="Looking"> Just looking/passing time 
+<br> Anything for us? 
+<br> <textarea name="comments"> Comments? Fixes? 
+</textarea> 
+<br> 
+<button type="submit" id="submit"> Submit </button> </form> <script src="https://static.jsbin.com/js/render/edit.js?4.1.8"></script>
+<script>jsbinShowEdit && jsbinShowEdit({"static":"https://static.jsbin.com","root":"https://jsbin.com"});</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1656750-34', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+
+</body> </html>
