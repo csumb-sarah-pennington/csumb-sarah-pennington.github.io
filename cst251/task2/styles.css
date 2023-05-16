@@ -1,0 +1,21 @@
+
+body {
+  text-align: center;
+  color: darkblue;
+  background-color:lightgray;
+}
+#image{
+max-width: 100%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+figcaption {
+ color: black;
+ text-align: center;
+}
+#tribute-info, ul {
+  color:#5b6678;
+  background-color: white;
+}
